@@ -49,6 +49,10 @@ fi
 
 echo "---> Building your Node application from source"
 npm install
+# echo "---> Installing PMD"
+# wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F5.7.0/pmd-bin-5.7.0.zip
+# unzip pmd-bin-5.7.0.zip
+# export pmdRun=$PATH:pmd-bin-5.7.0/bin/run.sh
 
 # Fix source directory permissions
 fix-permissions ./

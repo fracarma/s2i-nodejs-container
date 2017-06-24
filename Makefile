@@ -1,5 +1,5 @@
 # Include common Makefile code.
-BASE_IMAGE_NAME = nodejs
+BASE_IMAGE_NAME = nodejava
 VERSIONS = 4 6
 OPENSHIFT_NAMESPACES = 0.10
 
